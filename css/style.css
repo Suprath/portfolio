@@ -23,23 +23,22 @@ body, input, textarea, button {
     position: relative;
     overflow: hidden;
     min-height: 100vh; /* Ensure it takes at least the full viewport height */
-}
-
-.cover-video {
-    width: 100%;
-    height: auto;
-}
-
-.cover-video video {
-    width: 100%;
-    height: auto;
-    display: block;
+    padding-top: 56px; /* Adjust for fixed navbar */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .hero-content {
-    width: 100%;
+    position: relative;
+    z-index: 2;
     padding: 2rem;
     background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a background for better readability */
+    border-radius: 15px;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 2rem; /* Add some space at the top */
 }
 
 .profile-picture {
@@ -48,6 +47,45 @@ body, input, textarea, button {
     object-fit: cover;
     border: 4px solid #fff;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    margin-top: -100px; /* Pull the image up */
+    margin-bottom: 1rem; /* Add some space below the image */
+}
+
+.cover-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.cover-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a background for better readability */
+    border-radius: 15px;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    transform: translateY(25%); /* Adjust this value to control overlap */
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    margin-top: -100px; /* Pull the image up */
+    margin-bottom: 1rem; /* Add some space below the image */
 }
 
 .video-container {
@@ -235,22 +273,23 @@ body, input, textarea, button {
 /* Add these styles at the end of your existing CSS */
 
 .gallery-grid {
-    width: 100%;
-    margin-top: -10px; /* Compensate for the top margin of gallery items */
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center items horizontally */
+    gap: 15px; /* Space between items */
 }
 
 .gallery-item {
-    width: calc(33.333% - 10px);
-    margin-bottom: 10px;
-    display: block; /* Ensure items are block-level for Masonry */
+    flex: 1 1 calc(33.333% - 10px); /* Responsive width for items */
+    max-width: calc(33.333% - 10px); /* Ensure items do not exceed this width */
+    margin-bottom: 10px; /* Space below each item */
 }
 
 .gallery-item img,
 .gallery-item video {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 10px;
+    width: 100%; /* Make images and videos responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: rounded corners */
 }
 
 @media (max-width: 992px) {
