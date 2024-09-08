@@ -1,0 +1,79 @@
+Suprath PS
+I am a dedicated and enthusiastic individual with a passion for software development. Eager to apply my strong foundation in computer science and programming to real-world projects. With a focus on problem-solving and continuous learning, I am excited to contribute to cutting-edge technologies and deliver impactful solutions
+MRPL Colony, Site no-223,
+Chelairu, Via Haleangadi
+Mangalore, Dakshina Kannada,
+India 574146
+
+(+91) 9731745319
+suprathps@gmail.com
+CERTIFICATIONS
+Cloud Security Fundamentals
+November 2023 
+Palo Alto Networks Cybersecurity Academy
+Cybersecurity Fundamentals
+November 2023 
+Palo Alto Networks Cybersecurity Academy
+Getting Started On AI With Jetson Nano
+November 2023 
+NVIDIA Deep Learning Institute
+EDUCATION
+Holy Spirit English Medium High School Mukka, 
+2006-2019
+
+St Aloysius Pre University College Mangaluru, 
+Kodialbail Mangaluru
+2019-2021
+PCMC
+
+St Aloysius College (Autonomous)  Mangaluru, 
+Kodialbail Mangaluru
+2019-2021
+Bachelor Of Computer Application (BCA)
+
+Skills
+Languages
+C,  C++, C#, Python, R, PHP, Java, Html, Css, JavaScript.
+Frameworks
+Git, Docker, Flask, Bootstrap, Tailwind, Node js, React, TensorFlow, PyTorch, Linux, Figma, ASP.net, Laravel.
+
+Soft Skills
+Teamwork, Problem Solving, Leadership, Communication
+Time Management.
+
+Interests
+Photography, Film Making, Content Writing, Visual Story telling
+Digital Art and Illustrations, UI UX design.
+
+
+PROJECTS
+Lip Reading Using Machine Learning
+This project focuses on developing a lip-reading system using machine learning techniques. The system is built using python for the backend and Gradio for the frontend interface.It used pytorch to process videos. The primary model utilized is AV-HuBERT, which has been modified to improve its performance for this specific application.
+https://huggingface.co/spaces/Suprath/lipSync
+
+RM SportsWear (Full Stack Website)
+RM Sports Wear is a full Stack website for the online clothing store  built using HTML CSS  JavaScript and PHP Laravel, Used MySQL for database and Stripe for the Payment gateway
+
+
+
+
+SOFTWARE PROFICIENCY
+
+
+Linux, Windows Server
+Palo Alto Networks Firewall
+MySQL, MongoDB
+Adobe photoshop, 
+Premiere Pro, After effects.
+DaVinci Resolve
+Vs code / Visual Studio
+R Studio, PyCharm
+Microsoft Office
+NetBeans
+Figma
+LANGUAGES
+
+English
+Hindi
+Kannada
+

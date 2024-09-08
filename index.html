@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suprath PS - Software Developer & Creative</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="js/animations.js" defer></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-dark text-light">
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand fs-3 fw-bold" href="#">SUPRATH PS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="d-flex flex-column align-items-center justify-content-center text-center text-white">
+            <div class="container-fluid p-0 position-relative">
+                <div class="cover-video">
+                    <video autoplay loop muted playsinline>
+                        <source src="videos/cover-video.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="hero-content mt-4">
+                <img src="images/profile-picture.jpg" alt="Suprath PS" class="rounded-circle mb-4 profile-picture">
+                <h1 class="display-3 fw-bold mb-3">SUPRATH PS</h1>
+                <h2 class="fs-3 fw-light">SOFTWARE DEVELOPER | FILMMAKER</h2>
+            </div>
+        </section>
+
+        <section id="about" class="py-5 bg-dark animate-on-scroll">
+            <div class="container">
+                <h2 class="text-center mb-4">About Me</h2>
+                <p class="lead text-center mx-auto" style="max-width: 800px;">
+                    I'm a software developer and filmmaker, blending technical precision with creative vision. My expertise in full-stack development and machine learning fuels my innovative approach to both coding and visual storytelling. Whether I'm crafting efficient algorithms or directing compelling narratives, I strive to push boundaries and create impactful work.
+                </p>
+                <p class="lead text-center mx-auto" style="max-width: 800px;">
+                    Driven by curiosity and a passion for problem-solving, I thrive at the intersection of technology and creativity. I'm always eager to take on new challenges that allow me to leverage my diverse skill set in both the digital and cinematic realms.
+                </p>
+            </div>
+        </section>
+
+        <section id="projects" class="py-5 bg-dark animate-on-scroll">
+            <div class="container">
+                <h2 class="text-center mb-4">Featured Projects</h2>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="card h-100 bg-dark-subtle">
+                            <div class="card-body">
+                                <h3 class="card-title">Lip Reading Using Machine Learning</h3>
+                                <p class="card-text">A lip-reading system using machine learning techniques, built with Python and Gradio.</p>
+                                <a href="https://huggingface.co/spaces/Suprath/lipSync" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card h-100 bg-dark-subtle">
+                            <div class="card-body">
+                                <h3 class="card-title">RM SportsWear</h3>
+                                <p class="card-text">A full-stack website for an online clothing store using HTML, CSS, JavaScript, PHP Laravel, and MySQL.</p>
+                                <a href="#" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="py-5 bg-dark">
+            <div class="container">
+                <h2 class="text-center mb-4">Skills</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <h3 class="fs-4 mb-3">Languages</h3>
+                        <ul class="list-unstyled">
+                            <li>C, C++, C#, Python, R, PHP, Java, HTML, CSS, JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="fs-4 mb-3">Frameworks</h3>
+                        <ul class="list-unstyled">
+                            <li>Git, Docker, Flask, Bootstrap, Tailwind, Node.js, React, TensorFlow, PyTorch, Linux, Figma, ASP.NET, Laravel</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="fs-4 mb-3">Soft Skills</h3>
+                        <ul class="list-unstyled">
+                            <li>Teamwork, Problem Solving, Leadership, Communication, Time Management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="py-5 bg-dark animate-on-scroll">
+            <div class="container">
+                <h2 class="text-center mb-4">Gallery</h2>
+                <div class="gallery-grid">
+                    <!-- Gallery items will be dynamically inserted here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-5 bg-dark">
+            <div class="container">
+                <h2 class="text-center mb-4">Get in Touch</h2>
+                <form class="mx-auto" style="max-width: 500px;">
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Your email" required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="5" placeholder="Your message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Add this new section for social media links -->
+        <section id="social-media" class="py-3 bg-dark">
+            <div class="container">
+                <a href="https://www.instagram.com/suprath_ps" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/suprathps/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://in.pinterest.com/suprathp" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-pinterest"></i>
+                </a>
+                <a href="mailto:suprathps@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-dark text-light py-3">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2024 Suprath PS. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
